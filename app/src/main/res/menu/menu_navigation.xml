@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_noticias"
+        android:icon="@drawable/noticias"
+        android:title="Noticias"
+        />
+    <item
+        android:id="@+id/nav_partidos"
+        android:icon="@drawable/partidos"
+        android:title="Partidos"
+        />
+    <item
+        android:id="@+id/nav_grupos"
+        android:icon="@drawable/clasificacion"
+        android:title="Grupos"
+        />
+    <item
+        android:id="@+id/nav_ajustes"
+        android:icon="@drawable/ajustes"
+        android:title="Ajustes"
+        />
+</menu>

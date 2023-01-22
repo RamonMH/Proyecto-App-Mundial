@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/imagenyTexto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/list_row_title"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_row_image"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="Titulo"
+            android:textAlignment="center"
+            android:textColor="#040404"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/list_row_image"
+            android:layout_width="331dp"
+            android:layout_height="186dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/grupos" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ramon.proyectomundial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono"
+        android:label="OneCup"
+        android:roundIcon="@mipmap/icono"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Partidos" />
+        <activity android:name=".Grupos" />
+        <activity android:name=".LogIn"
+                  android:parentActivityName=".MainActivity" />
+        <activity android:name=".Ajustes" />
+        <activity android:name=".Splash"
+                  android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".ArticuloGrupos"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ArticuloEstadios"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ArticuloSeleccion"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ArticuloNike"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".RegistroPartidos" />
+        <activity android:name=".RegistroGrupos"></activity>
+    </application>
+
+</manifest>
